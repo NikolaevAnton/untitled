@@ -19,30 +19,7 @@ public class Intepret {
         //1 = I. 2 = II. 3 = III. 4 = IV. 5 = V. 6 = VI. 7 = VII. 8 = VIII. 9 = IX. 10 = X
 
         rimMap.put("нуль",0);
-        /*
-        rimMap.put("I",1);
-        rimMap.put("II",2);
-        rimMap.put("III",3);
-        rimMap.put("IV",4);
-        rimMap.put("V",5);
-        rimMap.put("VI",6);
-        rimMap.put("VII",7);
-        rimMap.put("VIII",8);
-        rimMap.put("IX",9);
-        rimMap.put("X",10);
-        rimMap.put("XI",11);
-        rimMap.put("XII",12);
-        rimMap.put("XIII",13);
-        rimMap.put("XIV",14);
-        rimMap.put("XV",15);
-        rimMap.put("XVI",16);
-        rimMap.put("XVII",17);
-        rimMap.put("XVIII",18);
-        rimMap.put("XIX",19);
-        rimMap.put("XX",20);
-        rimMap.put("XXI",21);
-*/
-
+        
         mathMap.put("+",1);
         mathMap.put("-",2);
         mathMap.put("*",3);
