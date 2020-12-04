@@ -5,18 +5,21 @@ import java.util.Map;
 
 public class Intepret {
 
+    RimIntepretator rimIntepretator = new RimIntepretator();
+
     int first;
     int second;
     int operation;
     boolean isArabStyle;
 
-    HashMap<String,Integer> rimMap = new HashMap<>();
+    HashMap<String,Integer> rimMap = rimIntepretator.rimMap;
     HashMap<String,Integer> mathMap = new HashMap<>();
 
     public void style(){
         //1 = I. 2 = II. 3 = III. 4 = IV. 5 = V. 6 = VI. 7 = VII. 8 = VIII. 9 = IX. 10 = X
 
         rimMap.put("нуль",0);
+        /*
         rimMap.put("I",1);
         rimMap.put("II",2);
         rimMap.put("III",3);
@@ -38,7 +41,7 @@ public class Intepret {
         rimMap.put("XIX",19);
         rimMap.put("XX",20);
         rimMap.put("XXI",21);
-
+*/
 
         mathMap.put("+",1);
         mathMap.put("-",2);
