@@ -6,7 +6,8 @@ public class Start {
 
     public static void main(String[] args) throws IOException {
 
-        //System.out.println("Введите операцию, например 1 + 6");
+        System.out.println("Введите операцию, например 1 + 6 \nили VIII * VIII");
+
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
         String calkString = reader.readLine();
@@ -15,6 +16,8 @@ public class Start {
         Intepret intepret = new Intepret();
         intepret.itIs(calkString);
         intepret.printResult(intepret.isArabStyle);
+
+
 
     }
 }

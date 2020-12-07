@@ -39,9 +39,9 @@ public class RimIntepretator {
             }
         }
         if (ten>5 && ten<9){
-            result.append("V");
+            result.append("L");
             for (int y = 1; y < 4; y++){
-                result.append("L");
+                result.append("X");
                 if (ten - 5 == y) break;
             }
         }
